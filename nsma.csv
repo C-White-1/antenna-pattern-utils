@@ -1,0 +1,53 @@
+required,name,length,abbrev
+TRUE,Revision Number,42,REVNUM
+TRUE,Revision Date,16,REVDAT
+FALSE,Comment1,80,COMNT1
+FALSE,Comment2,80,COMNT2
+TRUE,Antenna Manufacturer,42,ANTMAN
+TRUE,Model Number,42,MODNUM
+FALSE,Pattern ID Number,42,PATNUM
+FALSE,Pattern File Number,13,FILNUM
+FALSE,Feed Orientation,13,FEDORN
+FALSE,Description1,80,DESCR1
+FALSE,Description2,80,DESCR2
+FALSE,Description3,80,DESCR3
+FALSE,Description4,80,DESCR4
+FALSE,Description5,80,DESCR5
+FALSE,Date of data,16,DTDATA
+TRUE,Low Frequency (MHz),21,LOWFRQ
+TRUE,High Frequency (MHz),21,HGHFRQ
+TRUE,Gain Units,15,GUNITS
+FALSE,Low-band gain,12,LWGAIN
+TRUE,Mid-band gain,16,MDGAIN
+FALSE,High-band gain,12,HGGAIN
+FALSE,Mid-band Az Bmwdth,16,AZWIDT
+FALSE,Mid-band El Bmwdth,16,ELWIDT
+FALSE,Connector Type,80,CONTYP
+FALSE,VSWR,13,ATVSWR
+FALSE,Front-to-back Ratio(dB),10,FRTOBA
+TRUE,Electrical Downtilt (deg),16,ELTILT
+FALSE,Radiation Center (m),13,RADCTR
+FALSE,Port-to-Port Iso (dB),12,POTOPO
+FALSE,Max Input Power (W),17,MAXPOW
+FALSE,Antenna Length (m),14,ANTLEN
+FALSE,Antenna Width (m),14,ANTWID
+FALSE,Antenna Depth (m),14,ANTDEP
+FALSE,Antenna Weight (kg),16,ANTWGT
+FALSE,Future Field,80,FIELD1
+FALSE,Future Field,80,FIELD2
+FALSE,Future Field,80,FIELD3
+FALSE,Future Field,80,FIELD4
+FALSE,Future Field,80,FIELD5
+TRUE,Pattern Type,16,PATTYP
+TRUE,# Freq this file,10,NOFREQ
+TRUE,Pattern Freq (Mhz),21,PATFRE
+TRUE,# Pattern cuts,11,NUMCUT
+TRUE,Pattern Cut,11,PATCUT
+TRUE,Polarization,15,POLARI
+TRUE,# Data Points,13,NUPOIN
+TRUE,First & Last Angle,25,FSTLST
+FALSE,X-axis Orientation,53,XORIEN
+FALSE,Y-axis Orientation,53,YORIEN
+FALSE,Z-axis Orientation,53,ZORIEN
+TRUE,Pattern cut data,28,/point
+TRUE,End of file,11,ENDFIL

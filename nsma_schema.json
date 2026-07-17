@@ -1,0 +1,1203 @@
+{
+  "standard": "NSMA WG16.99.050",
+  "revision_date": "19990520",
+  "generated_from": "nsma_standard.py",
+  "fields": [
+    {
+      "section": null,
+      "abbrev": "REVNUM",
+      "name": "Revision Number",
+      "required": true,
+      "length": 42,
+      "prefix": "REVNUM:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Revision Number",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "REVDAT",
+      "name": "Revision Date",
+      "required": true,
+      "length": 16,
+      "prefix": "REVDAT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Revision Date",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "COMNT1",
+      "name": "Comment1",
+      "required": false,
+      "length": 80,
+      "prefix": "COMNT1:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Comment1",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "COMNT2",
+      "name": "Comment2",
+      "required": false,
+      "length": 80,
+      "prefix": "COMNT2:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Comment2",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ANTMAN",
+      "name": "Antenna Manufacturer",
+      "required": true,
+      "length": 42,
+      "prefix": "ANTMAN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Antenna Manufacturer",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "MODNUM",
+      "name": "Model Number",
+      "required": true,
+      "length": 42,
+      "prefix": "MODNUM:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Model Number",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "PATNUM",
+      "name": "Pattern ID Number",
+      "required": false,
+      "length": 42,
+      "prefix": "PATNUM:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Pattern ID Number",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FILNUM",
+      "name": "Pattern File Number",
+      "required": false,
+      "length": 13,
+      "prefix": "FILNUM:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Pattern File Number",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FEDORN",
+      "name": "Feed Orientation",
+      "required": false,
+      "length": 13,
+      "prefix": "FEDORN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Feed Orientation",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "DESCR1",
+      "name": "Description1",
+      "required": false,
+      "length": 80,
+      "prefix": "DESCR1:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Description1",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "DESCR2",
+      "name": "Description2",
+      "required": false,
+      "length": 80,
+      "prefix": "DESCR2:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Description2",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "DESCR3",
+      "name": "Description3",
+      "required": false,
+      "length": 80,
+      "prefix": "DESCR3:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Description3",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "DESCR4",
+      "name": "Description4",
+      "required": false,
+      "length": 80,
+      "prefix": "DESCR4:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Description4",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "DESCR5",
+      "name": "Description5",
+      "required": false,
+      "length": 80,
+      "prefix": "DESCR5:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Description5",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "DTDATA",
+      "name": "Date of data",
+      "required": false,
+      "length": 16,
+      "prefix": "DTDATA:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Date of data",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "LOWFRQ",
+      "name": "Low Frequency (MHz)",
+      "required": true,
+      "length": 21,
+      "prefix": "LOWFRQ:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Low Frequency (MHz)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "HGHFRQ",
+      "name": "High Frequency (MHz)",
+      "required": true,
+      "length": 21,
+      "prefix": "HGHFRQ:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "High Frequency (MHz)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "GUNITS",
+      "name": "Gain Units",
+      "required": true,
+      "length": 15,
+      "prefix": "GUNITS:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Gain Units",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "LWGAIN",
+      "name": "Low-band gain",
+      "required": false,
+      "length": 12,
+      "prefix": "LWGAIN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Low-band gain",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "MDGAIN",
+      "name": "Mid-band gain",
+      "required": true,
+      "length": 16,
+      "prefix": "MDGAIN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Mid-band gain",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "HGGAIN",
+      "name": "High-band gain",
+      "required": false,
+      "length": 12,
+      "prefix": "HGGAIN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "High-band gain",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "AZWIDT",
+      "name": "Mid-band Az Bmwdth",
+      "required": false,
+      "length": 16,
+      "prefix": "AZWIDT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Mid-band Az Bmwdth",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ELWIDT",
+      "name": "Mid-band El Bmwdth",
+      "required": false,
+      "length": 16,
+      "prefix": "ELWIDT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Mid-band El Bmwdth",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "CONTYP",
+      "name": "Connector Type",
+      "required": false,
+      "length": 80,
+      "prefix": "CONTYP:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Connector Type",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ATVSWR",
+      "name": "VSWR",
+      "required": false,
+      "length": 13,
+      "prefix": "ATVSWR:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "VSWR",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FRTOBA",
+      "name": "Front-to-back Ratio(dB)",
+      "required": false,
+      "length": 10,
+      "prefix": "FRTOBA:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Front-to-back Ratio(dB)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ELTILT",
+      "name": "Electrical Downtilt (deg)",
+      "required": true,
+      "length": 16,
+      "prefix": "ELTILT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Electrical Downtilt (deg)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "RADCTR",
+      "name": "Radiation Center (m)",
+      "required": false,
+      "length": 13,
+      "prefix": "RADCTR:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Radiation Center (m)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "POTOPO",
+      "name": "Port-to-Port Iso (dB)",
+      "required": false,
+      "length": 12,
+      "prefix": "POTOPO:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Port-to-Port Iso (dB)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "MAXPOW",
+      "name": "Max Input Power (W)",
+      "required": false,
+      "length": 17,
+      "prefix": "MAXPOW:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Max Input Power (W)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ANTLEN",
+      "name": "Antenna Length (m)",
+      "required": false,
+      "length": 14,
+      "prefix": "ANTLEN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Antenna Length (m)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ANTWID",
+      "name": "Antenna Width (m)",
+      "required": false,
+      "length": 14,
+      "prefix": "ANTWID:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Antenna Width (m)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ANTDEP",
+      "name": "Antenna Depth (m)",
+      "required": false,
+      "length": 14,
+      "prefix": "ANTDEP:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Antenna Depth (m)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ANTWGT",
+      "name": "Antenna Weight (kg)",
+      "required": false,
+      "length": 16,
+      "prefix": "ANTWGT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Antenna Weight (kg)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FIELD1",
+      "name": "Future Field",
+      "required": false,
+      "length": 80,
+      "prefix": "FIELD1:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Future Field",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FIELD2",
+      "name": "Future Field",
+      "required": false,
+      "length": 80,
+      "prefix": "FIELD2:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Future Field",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FIELD3",
+      "name": "Future Field",
+      "required": false,
+      "length": 80,
+      "prefix": "FIELD3:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Future Field",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FIELD4",
+      "name": "Future Field",
+      "required": false,
+      "length": 80,
+      "prefix": "FIELD4:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Future Field",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FIELD5",
+      "name": "Future Field",
+      "required": false,
+      "length": 80,
+      "prefix": "FIELD5:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Future Field",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "PATTYP",
+      "name": "Pattern Type",
+      "required": true,
+      "length": 16,
+      "prefix": "PATTYP:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Pattern Type",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "NOFREQ",
+      "name": "# Freq this file",
+      "required": true,
+      "length": 10,
+      "prefix": "NOFREQ:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "# Freq this file",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "PATFRE",
+      "name": "Pattern Freq (Mhz)",
+      "required": true,
+      "length": 21,
+      "prefix": "PATFRE:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Pattern Freq (Mhz)",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "NUMCUT",
+      "name": "# Pattern cuts",
+      "required": true,
+      "length": 11,
+      "prefix": "NUMCUT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "# Pattern cuts",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "PATCUT",
+      "name": "Pattern Cut",
+      "required": true,
+      "length": 11,
+      "prefix": "PATCUT:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Pattern Cut",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "POLARI",
+      "name": "Polarization",
+      "required": true,
+      "length": 15,
+      "prefix": "POLARI:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Polarization",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "NUPOIN",
+      "name": "# Data Points",
+      "required": true,
+      "length": 13,
+      "prefix": "NUPOIN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "# Data Points",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "FSTLST",
+      "name": "First & Last Angle",
+      "required": true,
+      "length": 25,
+      "prefix": "FSTLST:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "First & Last Angle",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "XORIEN",
+      "name": "X-axis Orientation",
+      "required": false,
+      "length": 53,
+      "prefix": "XORIEN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "X-axis Orientation",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "YORIEN",
+      "name": "Y-axis Orientation",
+      "required": false,
+      "length": 53,
+      "prefix": "YORIEN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Y-axis Orientation",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ZORIEN",
+      "name": "Z-axis Orientation",
+      "required": false,
+      "length": 53,
+      "prefix": "ZORIEN:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Z-axis Orientation",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "/point",
+      "name": "Pattern cut data",
+      "required": true,
+      "length": 28,
+      "prefix": null,
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "Pattern cut data",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "section": null,
+      "abbrev": "ENDFIL",
+      "name": "End of file",
+      "required": true,
+      "length": 11,
+      "prefix": "ENDFIL:,",
+      "format": null,
+      "description": null,
+      "example": null,
+      "raw": null,
+      "parsed_type": null,
+      "parse": false,
+      "ui": {
+        "label": "End of file",
+        "tooltip": null
+      },
+      "validation": {
+        "regex": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging output
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+debug.log
+
+# Local notes and scratch work
+nsma_working.txt
+workings/
+
+# Local antenna source data, standards, and manufacturer documents
+data/
+audit/
+edx_example/
+*.pdf
+*.pln
+*.pat
+*.dat
+
+# Generated antenna patterns, reports, and plots
+*.nsm
+*.png
+!docs/images/*.png
+*.svg
+*.html
+audit.json
+edx_nsma_template.txt
