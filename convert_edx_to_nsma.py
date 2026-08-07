@@ -104,7 +104,10 @@ def parse_args():
     parser.add_argument("--plot", action="store_true")
     parser.add_argument("--plot-output", type=Path)
     parser.add_argument("--plot-floor", type=float)
-    return parser.parse_args()
+    args = parser.parse_args()
+    if args.input is None and args.make_template is None:
+        parser.error("an EDX input file is required (or use --make-template)")
+    return args
 
 
 def main():
@@ -119,8 +122,6 @@ def main():
         write_template(args.make_template)
         print(f"Wrote {args.make_template}")
         return
-    if args.input is None:
-        raise SystemExit("An EDX input file is required (or use --make-template).")
 
     metadata = dict(TEMPLATE_DEFAULTS)
     if args.template is not None:

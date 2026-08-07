@@ -26,7 +26,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Convert a PLANET ASCII antenna pattern file to NSMA format."
     )
-    parser.add_argument("input", nargs="?", default="OA20-67.pln", type=Path)
+    parser.add_argument("input", type=Path, help="PLANET .pln input file.")
     parser.add_argument("-o", "--output", type=Path)
     parser.add_argument("--low-frequency")
     parser.add_argument("--high-frequency")
